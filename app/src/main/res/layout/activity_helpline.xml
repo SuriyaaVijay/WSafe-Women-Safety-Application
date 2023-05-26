@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context=".HelplineCall"
+android:background="@color/white">
+
+
+    <View
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:background="@drawable/top_left_corner_oval" />
+    <androidx.cardview.widget.CardView
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="25dp"
+        android:elevation="10dp"
+        android:id="@+id/btn_dist"
+        app:cardBackgroundColor="@color/purple_200"
+        app:cardCornerRadius="15dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:clickable="false"
+            android:text="Women In Distress  "
+
+            android:textSize="20sp" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
+
+<androidx.cardview.widget.CardView
+    android:layout_width="250dp"
+    android:layout_height="80dp"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="25dp"
+    android:layout_marginBottom="25dp"
+    android:elevation="10dp"
+    android:id="@+id/btn_abuse"
+    app:cardBackgroundColor="@color/purple_200"
+    app:cardCornerRadius="15dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:clickable="false"
+            android:text="Domestic Abuse"
+
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
+
+<androidx.cardview.widget.CardView
+    android:layout_width="250dp"
+    android:layout_height="80dp"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="25dp"
+    android:layout_marginBottom="25dp"
+    android:elevation="10dp"
+    android:id="@+id/btn_pol"
+    app:cardBackgroundColor="@color/purple_200"
+    app:cardCornerRadius="15dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:clickable="false"
+            android:text="Police"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
+
+<androidx.cardview.widget.CardView
+    android:layout_width="250dp"
+    android:layout_height="80dp"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="25dp"
+    android:layout_marginBottom="25dp"
+    android:elevation="10dp"
+    android:id="@+id/btn_stud"
+    app:cardBackgroundColor="@color/purple_200"
+    app:cardCornerRadius="15dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:clickable="false"
+            android:text="Student / Child Helpline  "
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
+
+<androidx.cardview.widget.CardView
+    android:layout_width="250dp"
+    android:layout_height="80dp"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="25dp"
+    android:layout_marginBottom="25dp"
+    android:elevation="10dp"
+    android:id="@+id/btn_ambulance"
+    app:cardBackgroundColor="@color/purple_200"
+    app:cardCornerRadius="15dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:clickable="false"
+            android:text="Ambulance"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

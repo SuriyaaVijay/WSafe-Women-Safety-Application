@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelfDefenseActivity">
+
+    <View
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/top_left_corner_oval"/>
+
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:layout_width="330dp"
+        android:layout_height="41dp"
+        android:layout_below="@id/webView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="This video shows some techniques of self defense"
+        android:textColor="#803A99"
+        android:textColorHighlight="#4AEC1F" />
+
+
+
+
+</RelativeLayout>

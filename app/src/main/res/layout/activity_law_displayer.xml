@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LawDisplayerActivity">
+
+
+    <View
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_margin="20dp"
+        android:background="@drawable/ic_baseline_close_24"
+        android:id="@+id/closeBtn"/>
+
+
+    <View
+        android:id="@+id/topleftoval"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/top_left_corner_oval"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/girlpower"
+        android:layout_below="@id/topleftoval"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintTop_toBottomOf="@id/topleftoval"
+        android:layout_marginTop="-40dp"
+        android:id="@+id/imgLaw"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Basic Laws for Women!"
+        app:layout_constraintTop_toBottomOf="@id/imgLaw"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginHorizontal="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/imgLaw"
+        android:textStyle="bold"
+        android:id="@+id/lawString"
+        />
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/lastLinear"
+        app:layout_constraintTop_toBottomOf="@id/lawString"
+        android:id="@+id/bigLaws"
+        android:padding="20dp"
+        android:background="@drawable/purple_background"
+        android:layout_below="@id/lawString"
+        android:text="According to the International Research Centre for Women, almost 47 percent of girls are married before the age of 18. Currently, India ranks 13 in the world when it comes to child marriages. Since child marriage has been steeped into the Indian culture and tradition since centuries, it has been tough eliminating it.
+
+The Prohibition of Child Marriage Act was made effective in 2007. This act defines child marriage as a marriage where the groom or the bride are underage, that is, the bride is under 18 years of age or the boy is younger than 21 years.
+
+Parents trying to marry underage girls are subject to action under this law. Since the law makes these marriages illegal, it acts as a major deterrent."
+        android:layout_marginTop="10dp"
+        android:layout_above="@id/lastLinear"
+        android:layout_marginHorizontal="50dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lastLinear"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="40dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:id="@+id/backBtn"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:layout_marginStart="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:id="@+id/nextBtn"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

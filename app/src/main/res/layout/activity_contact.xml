@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactActivity">
+
+    <View
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/top_left_corner_oval"/>
+
+    <RelativeLayout
+        android:layout_above="@id/callingInfo"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/topBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="50dp"
+            android:orientation="vertical">
+
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_police"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_below="@id/topBar"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="1mm"
+                android:backgroundTint="@color/purple_700"
+                android:text="Near by Police Stations"
+                android:textSize="18sp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_hospital"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_below="@id/callingInfo"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/purple_700"
+                android:text="Near by Hospitals"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/topBar"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="50dp"
+        android:id="@+id/contactText"
+        android:text="Contact to send SOS "/>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="300dp"
+            android:id="@+id/contacts"
+            android:layout_marginHorizontal="50dp"
+            android:layout_below="@id/contactText"/>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/callingInfo"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_above="@id/bottomLayout"
+        android:gravity="center"
+        android:foregroundGravity="center"
+        android:layout_toStartOf="@id/callingInfo"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Call will be placed to following number :"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/callText"
+            android:text=""/>
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/editCallButton"
+        android:layout_alignTop="@id/callingInfo"
+        android:layout_alignBottom="@id/callingInfo"
+        android:layout_width="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:layout_above="@id/bottomLayout"
+        android:layout_alignParentEnd="true"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_edit_24"/>
+
+    <RelativeLayout
+        android:layout_margin="20dp"
+        android:id="@+id/bottomLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp">
+
+
+        <EditText
+            android:id="@+id/contactGet"
+            android:minHeight="50dp"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/addContact"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="10dp"
+            android:hint="Number" />
+
+
+        <Button
+            android:id="@+id/addContact"
+            android:layout_alignParentBottom="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/contactGet"
+            android:text="Add"/>
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>
