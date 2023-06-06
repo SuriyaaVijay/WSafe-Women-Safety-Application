@@ -3,14 +3,16 @@
 
 W-Safe is a comprehensive women safety application designed to empower and protect women in times of distress. This Android application combines advanced features to provide a reliable safety solution. With W-Safe, women can feel more confident and secure, knowing that help is just a tap away. It is built using Java in Android Studio.
 
+## Full project code available with [Video Demo](www.youtube.com), [Report] and [PPT]
+
 ### Screenshots
 Home Page | Helplines | Laws
 :------------------:|:-------------------:|:-------------------:
 ![Home - screenshot](Media/Home.jpeg) | ![Helplines - screenshot](Media/Helpline.jpeg) | ![Laws - screenshot](Media/Laws.jpeg) 
 
-Laws Displayed | Contacts Adapter
-:------------------:|:-------------------:
-![LawDisp - screenshot](Media/DisplayLaw.jpeg) | ![Contacts Adapt - screenshot](Media/AddContacts.jpeg)
+Laws Displayed | Contacts Adapter | Self Defense
+:------------------:|:-------------------:|:-------------------:
+![LawDisp - screenshot](Media/DisplayLaw.jpeg) | ![Contacts Adapt - screenshot](Media/AddContacts.jpeg) | ![self defense - screenshot](Media/SelfDefense.jpeg)
 
 ### Key Features
 - Shake Detector: Trigger emergency actions by shaking the device 5 times, such as sending SOS alerts and activating the siren.
@@ -92,6 +94,3 @@ git push -u origin <your_branch_name>
 ## Build and Run Application
 
 ###### WSafe - A Women Safety Application 
-
-Tags
-Women Safety, Android Application, Safety App, SOS Messaging, Shake Detector, GPS Tracking, Emergency Contacts, Self Defense, Crime Prevention, Personal Security
