@@ -27,7 +27,7 @@ Laws Displayed | Contacts Adapter | Self Defense
 - Panic button: Emergency Calling to a registered mobile number.
 
 ### Installation
-- Clone the repository: git clone https://github.com/your-username/w-safe.git
+- Clone the repository: git clone https://github.com/your-username/WSafe-Women-Safety-Application.git
 - Open the project in Android Studio.
 - Build and run the application on your Android device or emulator.
 
