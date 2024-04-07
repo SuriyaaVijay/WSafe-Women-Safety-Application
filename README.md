@@ -2,7 +2,8 @@
 ## _Feel Safe Everywhere_
 ### Kindly Star this Repository ⚡
 
-## Mail to : suriyaa2002@gmail.com for Full Project Report and Full Project Code
+## Mail to : suriyaa2002@gmail.com for access to Full Project Report and Full Project Code.
+### This does not have all the required code files
 W-Safe is a comprehensive women safety application designed to empower and protect women in times of distress. This Android application combines advanced features to provide a reliable safety solution. With W-Safe, women can feel more confident and secure, knowing that help is just a tap away. It is built using Java in Android Studio.
 
 ## Full project code available with [Video Demo](https://youtu.be/Vxo8UF8Jc40), [Report](https://github.com/SuriyaaVijay/WSafe-Women-Safety-Application/blob/master/WSafe%20Report.pdf) and [PPT](https://github.com/SuriyaaVijay/WSafe-Women-Safety-Application/blob/master/WSafe%20PPT.pptx)  
