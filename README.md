@@ -18,6 +18,7 @@ Laws Displayed | Contacts Adapter | Self Defense
 ![LawDisp - screenshot](Media/DisplayLaw.jpeg) | ![Contacts Adapt - screenshot](Media/AddContacts.jpeg) | ![self defense - screenshot](Media/SelfDefense.jpeg)
 
 ### Key Features
+**- Voice Recognition: Voice based SOS Alert System**
 - Shake Detector: Trigger emergency actions by shaking the device 5 times, such as sending SOS alerts and activating the siren.
 - GPS Tracking: Retrieve the user's last known location and share it with registered contacts for quick assistance.
 - SOS Messaging: Send distress messages to multiple registered contacts, notifying them of the user's situation and location.
